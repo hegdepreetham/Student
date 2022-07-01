@@ -1,0 +1,8 @@
+CREATE TABLE  employee (
+empname varchar(20) ,
+dor datetime DEFAULT NULL,
+candname varchar(20)  ,
+candskill varchar(20) DEFAULT NULL ,
+candlevel int DEFAULT NULL,
+PRIMARY KEY (candname)
+);
